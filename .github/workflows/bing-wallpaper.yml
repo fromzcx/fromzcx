@@ -1,0 +1,65 @@
+name: Daily Bing Wallpaper
+
+on:
+  schedule:
+    # 09:00 UTC daily — after Bing refreshes the homepage image (~08:00 UTC)
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Bing wallpaper of the day
+        run: |
+          mkdir -p bing
+          python3 - <<'PY'
+          import html
+          import json
+          import re
+          import urllib.request
+
+          API = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US"
+          with urllib.request.urlopen(API, timeout=30) as resp:
+              data = json.load(resp)
+
+          img = data["images"][0]
+          img_url = "https://www.bing.com" + img["url"]
+          title = img.get("title", "")
+          copyright_ = img.get("copyright", "")
+          startdate = img.get("startdate", "")
+          date = f"{startdate[0:4]}-{startdate[4:6]}-{startdate[6:8]}" if len(startdate) == 8 else startdate
+
+          req = urllib.request.Request(img_url, headers={"User-Agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(req, timeout=60) as resp, open("bing/bing-wallpaper.jpg", "wb") as f:
+              f.write(resp.read())
+
+          section = (
+              '<p align="center"><a href="https://www.bing.com">'
+              '<img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>\n'
+              f'<p align="center"><sub>📷 <b>{html.escape(title)}</b> · {date} · {html.escape(copyright_)}</sub></p>'
+          )
+          with open("README.md", encoding="utf-8") as f:
+              readme = f.read()
+          pattern = re.compile(r"<!-- BING-START -->.*?<!-- BING-END -->", re.S)
+          replacement = f"<!-- BING-START -->\n{section}\n<!-- BING-END -->"
+          readme_new, n = pattern.subn(replacement, readme)
+          assert n == 1, "Bing markers not found in README.md"
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(readme_new)
+          print(f"Updated Bing wallpaper: {title} ({date})")
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bing/bing-wallpaper.jpg README.md
+          git diff --cached --quiet || git commit -m "🖼️ Update Bing wallpaper of the day"
+          git push
