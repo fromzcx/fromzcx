@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Frosty foliage</b> · 2026-11-15 · Frozen azalea with red leaves (© avoferten/Shutterstock)</sub></p>
+<p align="center"><sub>📷 <b>Built to last</b> · 2026-11-16 · Gila Cliff Dwellings National Monument, New Mexico (© Chiara Salvadori/Getty Images)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
