@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Step into the great outdoors</b> · 2026-11-17 · Trail of the Cedars, Glacier National Park, Montana (© DBushue Photography/Getty Images)</sub></p>
+<p align="center"><sub>📷 <b>Hunting from dusk till dawn</b> · 2026-11-18 · Pair of barn owls (© Zahoor Salmi/Getty Images)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
