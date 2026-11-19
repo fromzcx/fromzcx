@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Hunting from dusk till dawn</b> · 2026-11-18 · Pair of barn owls (© Zahoor Salmi/Getty Images)</sub></p>
+<p align="center"><sub>📷 <b>Where ideas take shape</b> · 2026-11-19 · The &quot;Body of Knowledge&quot; sculpture by Jaume Plensa at Goethe University in Frankfurt, Germany (© Todamo/Shutterstock)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
