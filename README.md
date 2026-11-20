@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Where ideas take shape</b> · 2026-11-19 · The &quot;Body of Knowledge&quot; sculpture by Jaume Plensa at Goethe University in Frankfurt, Germany (© Todamo/Shutterstock)</sub></p>
+<p align="center"><sub>📷 <b>Feasting in the fjords</b> · 2026-11-20 · Diving humpback whale, Kvaloya, Troms, Northern Norway (© Espen Bergersen/Minden Pictures)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
