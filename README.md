@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Terracotta dreams</b> · 2026-11-21 · Nice, Provence-Alpes-Côte d&#x27;Azur, France (© Siripong Kaewla-iad/Getty Images)</sub></p>
+<p align="center"><sub>📷 <b>Shelter among the waves</b> · 2026-11-22 · The chapel and hermitage of Santa Justa in Cantabria, Spain (© Tramont_ana/Getty Images)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
