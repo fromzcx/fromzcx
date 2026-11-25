@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Autumnal camouflage</b> · 2026-11-24 · Red squirrel in Cairngorms National Park, Highlands, Scotland (© Scotland: The Big Picture/Minden Pictures)</sub></p>
+<p align="center"><sub>📷 <b>A southwestern snowfall</b> · 2026-11-25 · Sunset Point, Bryce Canyon National Park, Utah (© Colin D. Young/Alamy)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
