@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>A southwestern snowfall</b> · 2026-11-25 · Sunset Point, Bryce Canyon National Park, Utah (© Colin D. Young/Alamy)</sub></p>
+<p align="center"><sub>📷 <b>Turkey twins</b> · 2026-11-26 · Two wild tom turkeys (© davidsdodd/Getty Images)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
