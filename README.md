@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Turkey twins</b> · 2026-11-26 · Two wild tom turkeys (© davidsdodd/Getty Images)</sub></p>
+<p align="center"><sub>📷 <b>Ribbons of gray and gold</b> · 2026-11-27 · Butte at sunset, Face Canyon, Lake Powell, Utah (© Jeff Foott/Minden)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
