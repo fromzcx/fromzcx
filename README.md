@@ -60,7 +60,7 @@
 
 <!-- BING-START -->
 <p align="center"><a href="https://www.bing.com"><img src="bing/bing-wallpaper.jpg" alt="Bing Wallpaper of the Day" width="100%" /></a></p>
-<p align="center"><sub>📷 <b>Ribbons of gray and gold</b> · 2026-11-27 · Butte at sunset, Face Canyon, Lake Powell, Utah (© Jeff Foott/Minden)</sub></p>
+<p align="center"><sub>📷 <b>Bridges through time</b> · 2026-11-28 · Old town and Vltava River, Prague, Czechia (© Lara_Uhryn/Getty Images)</sub></p>
 <!-- BING-END -->
 
 <p align="center"><sub>Updated daily by GitHub Actions · Image © Microsoft Bing / respective photographers</sub></p>
